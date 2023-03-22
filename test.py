@@ -38,7 +38,7 @@ class Github(unittest.TestCase):
         mock_get.return_value.text = '[{"name": "repo1"}, {"name": "repo2"}, {"name": "repo3"}]'
         mock_get.return_value.status_code = 200
         # calling the function
-        # response = github_fetch_data('Varun2480')
+        # response = github_fetch_data('Varunsairedd')
 
         assert_false(mock_get.called)
 
